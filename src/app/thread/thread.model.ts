@@ -1,7 +1,7 @@
 import { Message } from '../message/message.model';
 
 /**
- * Thread (Тема) представляет группу пользователей, обменивающихся сообщениями
+ * Thread represents a group of Users exchanging Messages
  */
 export interface Thread {
   id: string;

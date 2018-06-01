@@ -2,7 +2,7 @@ import { User } from '../user/user.model';
 import { Thread } from '../thread/thread.model';
 
 /**
- * Сообщение представляет одно сообщение, отправленное в Thread-потоке
+ * Message represents one message being sent in a Thread
  */
 export interface Message {
   id?: string;

@@ -3,7 +3,7 @@ import {
   OnInit,
   Inject
 } from '@angular/core';
-import {AppStore} from '../app.store';
+import { AppStore } from '../app.store';
 import * as Redux from 'redux';
 import {
   Thread

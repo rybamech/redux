@@ -1,4 +1,4 @@
-import {InjectionToken} from '@angular/core';
+import { InjectionToken } from '@angular/core';
 import {
   createStore,
   Store,
@@ -15,7 +15,7 @@ export const AppStore = new InjectionToken('App.store');
 
 const devtools: StoreEnhancer<AppState> =
   window['devToolsExtension'] ?
-    window['devToolsExtension']() : f => f;
+  window['devToolsExtension']() : f => f;
 
 export function createAppStore(): Store<AppState> {
   return createStore<AppState>(
@@ -25,5 +25,5 @@ export function createAppStore(): Store<AppState> {
 }
 
 export const appStoreProviders = [
-  {provide: AppStore, useFactory: createAppStore}
+   { provide: AppStore, useFactory: createAppStore }
 ];
